@@ -15,9 +15,9 @@ Implement a C program that recreates a Mario pyramid, using hashes (#) for brick
 
 ```
 Height: 5
-		#
-	 ##
-	###
+    #
+   ##
+  ###
  ####
 #####
 ```
