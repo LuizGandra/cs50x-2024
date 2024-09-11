@@ -3,11 +3,11 @@ Solutions to all problem sets from CS50x 2024, the online version of Harvard Uni
 
 ## Problem Sets
 - Week 0:
-	- Starting From Scratch
+	- [x] Starting From Scratch
 - Week 1:
-	- Hello, World
-	- Hello, It's Me
-	- Mario (Less)
-	- Mario (More)
-	- Cash
-	- Credit
+	- [x] Hello, World
+	- [x] Hello, It's Me
+	- [x] Mario (Less)
+	- [x] Mario (More)
+	- [x] Cash
+	- [x] Credit
