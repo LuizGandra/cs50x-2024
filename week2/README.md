@@ -6,9 +6,9 @@ Implement a program in C that determines the winner of a short Scrabble-like gam
 
 Scrabble is a game where players create words to score points, and the number of points is the sum of the point values of each letter in the word.
 
-| Letter |  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |  I  |  J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |  R  |  S  |  T  |  U  |  V  |  W  |  X  |  Y  |  Z  |
-|:-----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:----:|
-| Value |  1  |  3  |  3  |  2  |  1  |  4  |  2  |  4  |  1  |  8  |  5  |  1  |  3  |  1  |  1  |  3  |  10  |  1  |  1  |  1  |  1  |  4  |  4  |  8  |  4  |  10  |
+| Letter |  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |  I  |  J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |  R  |  S  |  T  |  U  |  V  |  W  |  X  |  Y  |  Z  |
+|:-----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Value |  1  |  3  |  3  |  2  |  1  |  4  |  2  |  4  |  1  |  8  |  5  |  1  |  3  |  1  |  1  |  3  | 10  |  1  |  1  |  1  |  1  |  4  |  4  |  8  |  4  | 10  |
 
 For example, "CODE" is worth 7 points.
 
