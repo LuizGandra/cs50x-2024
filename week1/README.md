@@ -1,4 +1,5 @@
 # Problem Set 1
+All exercises in Problem Set 1.
 
 ## Hello, World
 Implement a program in C that prints "hello, world\n".
@@ -47,7 +48,9 @@ Implement a program in C that prints the minimun coins needed to make the given 
 ```
 Change owed: 25
 1
+```
 
+```
 Change owed: 70
 4
 ```
@@ -63,7 +66,9 @@ Implement a program in C that checks the validity of a given credit card number.
 $ ./credit
 Number: 4003600000000014
 VISA
+```
 
+```
 $ ./credit
 Number: 6176292929
 INVALID
