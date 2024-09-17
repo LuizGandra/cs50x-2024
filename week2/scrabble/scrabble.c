@@ -10,7 +10,8 @@ int playersScores[PLAYERS_COUNT];
 int calculate_score(string p);
 void print_winner(void);
 
-int main(void) {
+int main(void)
+{
     string playersWords[PLAYERS_COUNT];
 
     // prompt the user
@@ -26,28 +27,29 @@ int main(void) {
 }
 
 // calculate the player's score
-int calculate_score(string word) {
+int calculate_score(string word)
+{
     int score = 0;
 
     // check the score of each character
-    for (int i = 0, len = strlen(word); i < len; i++) {
-        if (isupper(word[i])) {
+    for (int i = 0, len = strlen(word); i < len; i++)
+		{
+        if (isupper(word[i]))
             score += POINTS[word[i] - 'A'];
-        } else if (islower(word[i])) {
+        else if (islower(word[i]))
             score += POINTS[word[i] - 'a'];
-        }
     }
 
     return score;
 }
 
 // check and print the player with the highest score
-void print_winner(void) {
-    if (playersScores[0] > playersScores[1]) {
+void print_winner(void)
+{
+    if (playersScores[0] > playersScores[1])
         printf("Player 1 wins!\n");
-    } else if (playersScores[0] < playersScores[1]) {
+    else if (playersScores[0] < playersScores[1])
         printf("Player 2 wins!\n");
-    } else {
+    else
         printf("Tie!\n");
-    }
 }

@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: 0,270s in the worst case (reversed list); 0,060s in the better case (sorted list);
+
+sort2 uses: Merge Sort
+
+How do you know?: 0,066s in the worst case (reversed list); 0,086s in the better case (sorted list);
+
+sort3 uses: Selection Sort
+
+How do you know?: 0,175s in the worst case (reversed list); 0,133s in the better case (sorted list);

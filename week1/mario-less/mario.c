@@ -4,16 +4,17 @@
 int getHeight(void);
 void printRow(int spaces, int bricks);
 
-int main(void) {
+int main(void)
+{
     int height = getHeight();
     int spaces = height;
 
-    for (int i = 0; i < height; i++) {
+    for (int i = 0; i < height; i++)
         printRow(--spaces, i + 1);
-    }
 }
 
-int getHeight(void) {
+int getHeight(void)
+{
     int height;
 
     do {
@@ -23,14 +24,13 @@ int getHeight(void) {
     return height;
 }
 
-void printRow(int spaces, int bricks) {
-    for (int i = 0; i < spaces; i++) {
+void printRow(int spaces, int bricks)
+{
+    for (int i = 0; i < spaces; i++)
         printf(" ");
-    }
 
-    for (int i = 0; i < bricks; i++) {
+    for (int i = 0; i < bricks; i++)
         printf("#");
-    }
 
     printf("\n");
 }

@@ -4,7 +4,8 @@
 int getChange(void);
 int countCoins(int cents, int coinValue);
 
-int main(void) {
+int main(void)
+{
     int cents = getChange();
     int coinsQuantity = 0;
 
@@ -14,19 +15,19 @@ int main(void) {
     int pennies = 1;
 
     // get the lowest amount of coins possible
-    while (cents > 0) {
+    while (cents > 0)
+		{
         int coinValue = 0;
 
         // select the biggest coin possible for the cents restant
-        if (cents >= quarter) {
+        if (cents >= quarter)
             coinValue = quarter;
-        } else if (cents >= dime) {
+        else if (cents >= dime)
             coinValue = dime;
-        } else if (cents >= nickel) {
+        else if (cents >= nickel)
             coinValue = nickel;
-        } else if (cents >= pennies) {
+        else if (cents >= pennies)
             coinValue = pennies;
-        }
 
         int coins = countCoins(cents, coinValue);
         coinsQuantity += coins;
@@ -37,7 +38,8 @@ int main(void) {
 }
 
 // get the cents owed from user's input
-int getChange(void) {
+int getChange(void)
+{
     int cents;
 
     do {
@@ -48,10 +50,12 @@ int getChange(void) {
 }
 
 // count the max amount of coins of a specific value can be used
-int countCoins(int cents, int coinValue) {
+int countCoins(int cents, int coinValue)
+{
     int coinsQuantity = 0;
 
-    while (cents >= coinValue) {
+    while (cents >= coinValue)
+		{
         coinsQuantity++;
         cents -= coinValue;
     }
