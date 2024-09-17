@@ -18,3 +18,8 @@ Solutions to all problem sets from CS50x 2024, the online version of Harvard Uni
 	- [x] Readability
 	- [x] Caesar
 	- [x] Substitution
+- Week 3:
+	- [x] Sort
+	- [x] Plurality
+	- [x] Runoff
+	- [x] Tideman
