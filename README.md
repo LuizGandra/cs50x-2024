@@ -23,3 +23,8 @@ Solutions to all problem sets from CS50x 2024, the online version of Harvard Uni
 	- [x] Plurality
 	- [x] Runoff
 	- [x] Tideman
+- Week 4:
+	- [x] Volume
+	- [x] Filter (Less)
+	- [x] Filter (More)
+	- [x] Recover
