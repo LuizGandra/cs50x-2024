@@ -28,3 +28,6 @@ Solutions to all problem sets from CS50x 2024, the online version of Harvard Uni
 	- [x] Filter (Less)
 	- [x] Filter (More)
 	- [x] Recover
+- Week 5:
+	- [x] Inheritance
+	- [x] Speller
