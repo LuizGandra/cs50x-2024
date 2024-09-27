@@ -31,3 +31,11 @@ Solutions to all problem sets from CS50x 2024, the online version of Harvard Uni
 - Week 5:
 	- [x] Inheritance
 	- [x] Speller
+- Week 6:
+	- [x] Hello
+	- [x] Mario (Less)
+	- [x] Mario (More)
+	- [x] Cash
+	- [x] Credit
+	- [x] Readability
+	- [x] DNA
