@@ -30,7 +30,7 @@ With this in mind, I decided to build a Daily Game web application based on the 
 - `src/components/CustomModal` is the folder that contains the customizable modal component files, used mainly for configuration and help modals.
 - `src/components/ResultsModal` is the folder that contains the files for the modal that displays the voting results in a chart.
 - `src/components/Spinner` is the folder that contains the loading spinner files that may appear when opening the website if the server is slow.
--`public/` is the public folder for Vite. It contains the favicon file, the site's base index.html, and other files related to Google AdSense, which I was just learning how to use.
+- `public/` is the public folder for Vite. It contains the favicon file, the site's base index.html, and other files related to Google AdSense, which I was just learning how to use.
 
 ### Database
 **Technologies used:** MongoDB and Redis.
