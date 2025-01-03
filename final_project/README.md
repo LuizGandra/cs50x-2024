@@ -1,8 +1,10 @@
-# Am I The Asshole?
+# CS50x 2024 Final Project - Am I The Asshole?
 
-## Links
-[Video Demo](https://youtu.be/xiHhJdtKCQE)
-[Site](https://amitheasshole.vercel.app/)
+![image](https://github.com/user-attachments/assets/aa1ca12d-de7d-4718-89aa-53a4471355c8)
+
+## Important Links
+- [Video Demo](https://youtu.be/xiHhJdtKCQE)
+- [Site](https://amitheasshole.vercel.app/)
 
 ## Description
 "Am I The Asshole?" is a very popular subreddit where people share their own stories so that forum members can vote on whether or not the person was an asshole. The subreddit currently has 23 million users.
