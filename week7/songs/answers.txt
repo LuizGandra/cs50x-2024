@@ -1,0 +1,5 @@
+If Spotify determines an audio aura by looking at the average energy,valence, and danceability of a person's top 100 songs, we can average these values ​​and add them together to get a numerical valuethat can be used to determine the aura, like this:
+
+SELECT (AVG(energy) + AVG(valence) + AVG(danceability)) FROM songs;
+
+The problem with this approach is that it doesn't consider other essential metrics, such as how many hours a person listened to each song or artist. In this method, the most listened to song would have the same weight in the calculation as the song that was listened to the least, regardless of the difference in hours listened to.

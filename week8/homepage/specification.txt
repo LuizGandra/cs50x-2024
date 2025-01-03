@@ -1,0 +1,36 @@
+JavaScript and Bootstrap
+I used Bootstrap's card component and used JavaScript to issue an alert every 30 seconds.
+
+CSS properties:
+max-width
+height
+margin
+margin-bottom
+padding
+background-color
+border-radius
+text-size
+text-align
+color
+font-weight
+text-decoration
+text-transform
+box-sizing
+display
+flex-direction
+justify-content
+align-items
+gap
+
+HTML Tags:
+section
+header
+h1
+p
+main
+div
+h2
+a
+footer
+ul
+li

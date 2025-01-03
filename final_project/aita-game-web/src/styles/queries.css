@@ -1,0 +1,520 @@
+@media (max-width: 62.5em) {
+    html {
+        /* font-size: 9px; */
+        font-size: 56.25%;
+    }
+
+    main.main {
+        margin: 12rem auto 8rem;
+    }
+
+    section.story-container {
+        max-height: 71.11rem;
+    }
+
+    section.story-container .text-container {
+        padding-bottom: 7.11rem;
+    }
+
+    section.story-container .text-container .primary-title {
+        font-size: 2.67rem;
+    }
+
+    section.story-container .text-container div p {
+        font-size: 2.22rem;
+    }
+
+    div.controller {
+        width: 80rem;
+        gap: 4rem;
+    }
+
+    button.btn--yes,
+    button.btn--missing,
+    button.btn--no {
+        min-width: 17.78rem;
+
+        padding: 1rem 2rem;
+    }
+
+    .main div.ad {
+        max-width: 80rem;
+    }
+
+    .footer div.footer-content {
+        padding: 4rem 6rem 2rem;
+    }
+}
+
+@media (max-width: 48.75em) {
+    html {
+        /* font-size: 8px; */
+        font-size: 50%;
+    }
+
+    header.header {
+        margin-bottom: 14rem;
+        padding: 2rem 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    header.header p.header-description {
+        width: 100%;
+        margin-bottom: 8rem;
+
+        justify-content: center;
+
+        font-size: 2rem;
+    }
+
+    header.header .options {
+        padding-top: 9rem;
+
+        font-size: 3rem;
+    }
+
+    header.header .options .options-list {
+        padding: 0;
+    }
+
+    header.header .options .options-list .icon {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    main.main {
+        margin: 12rem auto 8rem;
+    }
+
+    section.story-container {
+        max-width: 96%;
+        max-height: 70rem;
+        height: 70rem;
+    }
+
+    section.story-container .text-container {
+        max-height: 55rem;
+        padding: 0rem 4rem 8rem;
+    }
+
+    section.story-container .text-container .primary-title {
+        font-size: 3rem;
+    }
+
+    section.story-container .text-container div p {
+        font-size: 2.5rem;
+    }
+
+    div.controller {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0 -4px 40px rgba(0, 0, 0, 0.1);
+
+        gap: 4.8rem;
+    }
+
+    button.btn--no,
+    button.btn--missing,
+    button.btn--no {
+        min-width: 17.78rem;
+        padding: 1rem 2rem;
+
+        font-size: 2rem;
+    }
+
+    .main div.ad {
+        max-width: 90%
+    }
+
+    main.main .logo {
+        top: -76px;
+    }
+
+    div.controller div.strip-container {
+        top: -40px;
+    }
+
+    .controller .strip-container .strip {
+        width: 30rem;
+    }
+
+    .controller div.strip-container::before,
+    .controller div.strip-container::after {
+        border-width: 20px;
+        top: 20px;
+    }
+
+    .controller div.strip-container::before {
+        left: -30px;
+    }
+
+    .controller div.strip-container::after {
+        right: -30px;
+    }
+
+    .controller div.strip-container .strip::before,
+    .controller div.strip-container .strip::after {
+        border-width: 5px;
+    }
+
+    .controller div.strip-container .strip::before {
+        bottom: -8px;
+        left: 0.5px;
+    }
+
+    .controller div.strip-container .strip::after {
+        bottom: -8px;
+        right: 0.5px;
+    }
+
+    div.controller::before {
+        width: 90%;
+    }
+
+    .footer div.footer-content {
+        padding: 4rem 2rem 2rem;
+    }
+
+    .modal-body div.legend-label {
+        font-size: 1.75rem;
+    }
+
+    .confirmation-modal .modal-dialog button {
+        font-size: 1.75rem;
+    }
+
+    .confirmation-modal p.confirmation {
+        font-size: 2rem;
+    }
+
+    .modal-body .footer .btn-share {
+        font-size: 2rem;
+    }
+
+    body div.copy-warning {
+        padding: 1rem 2rem;
+    }
+
+    div.copy-warning .warning-text {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 33.75em) {
+    html {
+        /* font-size: 7px; */
+        font-size: 43.75%;
+    }
+
+    header.header {
+        margin-bottom: 18rem;
+        padding-bottom: 2rem;
+        border-bottom: solid 2px #3c3c46;
+    }
+
+    header.header p.header-description {
+        max-width: 100%;
+    }
+
+    main.main .logo {
+        font-size: 4.57rem;
+
+        top: -96px;
+    }
+
+    main.main .logo .title-span {
+        width: 45.71rem;
+        box-shadow: 0 18px 24px rgba(0, 0, 0, 0.2);
+
+        font-size: 6.85rem;
+    }
+
+    main.main .logo .title-span::after {
+        font-size: 13.71rem;
+        top: -48px;
+        right: 8px;
+    }
+
+    section.story-container {
+        max-width: 100%;
+        max-height: 64.71rem;
+        padding: 3.43rem 2rem 3.43rem;
+        border-radius: 0;
+    }
+
+    section.story-container .text-container {
+        padding: 4rem 2rem 6rem;
+    }
+
+    section.story-container .text-container .primary-title {
+        font-size: 3.42rem;
+    }
+
+    section.story-container .text-container div p {
+        font-size: 2.85rem;
+    }
+
+    section.story-container .text-container::-webkit-scrollbar {
+        width: 0;
+    }
+
+    section.story-container .text-container div p {
+        font-size: 2.5rem;
+    }
+
+    section.story-container .text-container .primary-title {
+        margin-bottom: 4rem;
+    }
+
+    div.controller {
+        max-width: 100%;
+        padding: 7rem 0;
+
+        text-align: center;
+
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    div.controller::before {
+        width: 100%;
+    }
+
+    .controller button.btn--yes,
+    .controller button.btn--missing,
+    .controller button.btn--no {
+        font-size: 2.28rem;
+
+        padding: 1rem 2rem;
+
+        transform: rotate(3deg);
+    }
+
+    .controller button.btn--yes {
+        width: 30%;
+    }
+
+    .controller button.btn--missing {
+        width: 70%;
+
+        transform: rotate(-0.5deg);
+    }
+
+    .controller button.btn--no {
+        width: 30%;
+    }
+
+    div.controller div.strip-container {
+        margin: 0 auto;
+    }
+
+    .main div.ad {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer div.footer-content {
+        padding: 4rem 3.42rem 2rem;
+    }
+
+    .footer div.footer-content .footer-label {
+        font-size: 2.4rem;
+    }
+
+    .footer div.footer-content .footer-list--pages a {
+        font-size: 2rem;
+    }
+
+    .footer div.footer-content .footer-list--medias a:link.icon {
+        font-size: 4rem;
+    }
+
+    .footer div.creator-info {
+        font-size: 1.71rem !important;
+    }
+
+    .modal-content {
+        border: 6px solid transparent;
+        border-radius: 0;
+    }
+
+    .modal-header {
+        border-radius: 0;
+    }
+
+    .modal-header .modal-title {
+        font-size: 2.57rem;
+    }
+
+    .modal-body .setting-label {
+        font-size: 2.28rem;
+    }
+
+    div.modal-body .features-grid {
+        grid-template-columns: 1fr;
+        gap: 4rem 0;
+    }
+
+    div.features-grid div.features-card {
+        width: 34.28rem;
+        padding: 2rem 4rem;
+    }
+
+    .features-grid .feature-title,
+    .features-grid .feature-text {
+        font-size: 2rem;
+    }
+
+    .modal-body .features-grid .numbers {
+        display: none;
+    }
+
+    .modal-body canvas.chart {
+        width: 320px;
+    }
+
+    .modal-body div.legend-label {
+        font-size: 2rem;
+    }
+
+    .modal-footer {
+        justify-content: center;
+    }
+
+    .modal-footer button {
+        font-size: 2rem;
+    }
+
+    .languages-select {
+        max-width: 100%;
+        font-size: 2rem;
+    }
+
+    .confirmation-modal .modal-dialog button {
+        margin: 2rem 2rem 0 0;
+
+        font-size: 2rem;
+    }
+
+    .confirmation-modal .modal-dialog button:last-child {
+        margin-right: 0;
+    }
+
+    .confirmation-modal p.confirmation {
+        font-size: 2.28rem;
+    }
+
+    .modal-content .modal-body .footer {
+        padding: 2rem;
+
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .modal-body .footer .vote-label {
+        font-size: 2.28rem;
+        text-align: center;
+    }
+
+    .modal-body .footer .btn-share {
+        min-width: 20rem;
+        max-width: 34.28rem;
+        padding: 1rem 6.85rem;
+
+        font-size: 2.28rem;
+    }
+
+    body div.copy-warning {
+        width: 34.28rem;
+        padding: 1.14rem 2.28rem;
+
+        justify-content: center;
+    }
+
+    div.copy-warning .warning-text {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 27.5em) {
+    header.header {
+        margin-bottom: 14rem;
+        padding: 3.6rem 0 2rem;
+    }
+
+    header.header p.header-description {
+        font-size: 2rem;
+        text-align: center;
+
+        display: block;
+    }
+
+    header.header p.header-description {
+        margin-bottom: 7rem;
+    }
+
+    header.header .options {
+        padding-top: 8rem;
+    }
+
+    main.main .logo {
+        font-size: 3.42rem;
+
+        top: -80px
+    }
+
+    main.main .logo .title-span {
+        width: 40rem;
+        font-size: 5.14rem;
+    }
+
+    main.main .logo .title-span::after {
+        font-size: 13.71rem;
+        top: -48px;
+        right: 4px;
+    }
+
+    section.story-container .text-container {
+        padding: 4rem 2rem 6rem;
+    }
+
+    .confirmation-modal .modal-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modal-body p.confirmation {
+        margin-bottom: 2.85rem;
+    }
+
+    .confirmation-modal .modal-dialog button {
+        margin: 0;
+    }
+
+    .confirmation-modal .modal-dialog .cancel-btn {
+        margin: 0 0 2rem;
+    }
+
+		.results-modal .modal-body {
+			padding: 2rem;
+		}
+
+    .modal-body canvas.chart {
+        width: 100%;
+    }
+
+    body div.copy-warning {
+        width: 37.14rem;
+        padding: 1.14rem 2.28rem;
+
+        gap: 2.4rem;
+    }
+
+    div.copy-warning .warning-text {
+        font-size: 2rem;
+    }
+}
